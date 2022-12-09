@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Jost", sans-serif;
+}
+.about h4 {
+  color: rgb(119, 6, 38);
+}
+.about .subtitle {
+  color: #ce1212;
+  font-size: 35px;
+}
+.about .call-us {
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+  background-color: #fff;
+  box-shadow: 0px 2px 25px rgb(0 0 0 / 8%);
+  padding: 20px;
+  text-align: center;
+}
+.about .call-us h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: black;
+}
+.about .call-us p {
+  font-size: 28px;
+  font-weight: 700;
+  color: #ce1212;
+}
+.about .content ul li {
+  padding: 0 0 8px 26px;
+}
+.about .content ul li i {
+  color: #ce1212;
+}
+
+#ourwork .ourwork {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("img/stats-bg.jpg") center center;
+  background-size: cover;
+  padding: 100px 0;
+  overflow: hidden;
+}
+.ourwork i {
+  color: beige;
+  font-size: xx-large;
+  margin-top: 5px;
+}
+.ourwork h5 {
+  color: beige;
+  margin-top: 25px;
+}
+
+.ourmenu {
+  overflow: hidden;
+}
+.input {
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+/*Media Width*/
