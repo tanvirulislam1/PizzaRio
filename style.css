@@ -68,3 +68,14 @@ body {
   width: 100%;
 }
 /*Media Width*/
+@media only screen and (max-width: 992px) {
+  .about-img {
+    display: none;
+  }
+  .menu-img {
+    display: none;
+  }
+  .about_img {
+    display: none;
+  }
+}
